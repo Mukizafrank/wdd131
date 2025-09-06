@@ -1,0 +1,96 @@
+/* Google Fonts */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+/* Header */
+header {
+  background-color: #2b3a67;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+#course-title {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #ffcc00;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+/* Main Layout */
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+h1 {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  background-color: #2b3a67;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 6px 6px 0 0;
+}
+
+.card-content {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card-content img {
+  max-width: 150px;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer {
+  background-color: #2b3a67;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
