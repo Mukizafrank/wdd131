@@ -1,0 +1,17 @@
+/* Larger view styles */
+@media only screen and (min-width: 768px) {
+    .nav-items ul {
+        display: flex; /* Show nav items in row */
+        flex-direction: row;
+        gap: 1rem;
+        position: static; /* Reset positioning */
+    }
+
+    .hamburger {
+        display: none; /* Hide hamburger in larger view */
+    }
+
+    .container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Multiple columns */
+    }
+}
