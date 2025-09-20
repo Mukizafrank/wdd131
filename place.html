@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japan</title>
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+  </head>
+<body>
+  <header>
+    <h1>Japan</h1>
+  </header>
+
+  <!-- Hero Image -->
+  <picture>
+    <source srcset="images/mountfuji.webp" media="(min-width: 800px)">
+    <source srcset="images/mountfuji-mobile.webp" media="(min-width: 500px)">
+    <img src="images/mountfuji.webp" alt="Beautiful landscape of Japan" class="hero">
+  </picture>
+
+  <main>
+    <!-- Data Section -->
+    <section class="data">
+      <h2>Data</h2>
+      <ul>
+        <li><strong>Area:</strong> 377,975 km²</li>
+        <li><strong>Population:</strong>125.7 million</li>
+        <li><strong>Capital:</strong> Tokyo</li>
+        <li><strong>Languages:</strong> Japanese</li>
+        <li><strong>Currency:</strong> Yen (¥)</li>
+        <li><strong>Time Zone:</strong> GMT+9</li>
+        <li><strong>Calling Code:</strong> +81</li>
+        <li><strong>Internet TLD:</strong> .jp</li>
+      </ul>
+    </section>
+
+    <!-- Weather Section -->
+    <section class="weather">
+            <h2>Weather</h2>
+            <div class="weather-content">
+                <p><strong>Current:</strong> 22°C / 72°F</p>
+                <p><strong>Conditions:</strong> Partly Cloudy</p>
+                <p><strong>Wind:</strong> 5 km/h</p>
+                <p><strong>Wind Chill:</strong> <span id="windchill">N/A</span></p>
+            </div>
+        </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> 🌸 Mukiza Frank 🌸 Japan</p>
+    <p>Last Modification: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
