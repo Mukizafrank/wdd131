@@ -1,0 +1,44 @@
+/* Larger view styles */
+@media only screen and (min-width: 768px) {
+    .nav-items ul {
+        display: flex; /* Show nav items in row */
+        flex-direction: row;
+        gap: 1rem;
+        position: static; /* Reset positioning */
+    }
+
+    .hamburger {
+        display: none; /* Hide hamburger in larger view */
+    }
+
+    .container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Multiple columns */
+    }
+}
+
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Horizontal alignment */
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 1200px; /* Increase max-width for better horizontal layout */
+    margin: 0 auto;
+}
+
+.card {
+    background: hsla(0, 0%, 100%, 0.865);
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-top: 1rem;
+    z-index: 1;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/mobile-filtered-temples.css">
+    <link rel="stylesheet" href="styles/large-filtered-temples.css">
+
+    <script src="scripts/filtered-temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <h2>Temple Album</h2>
+        <button id="menuButton" class="hamburger">☰</button>
+        <nav id="menuItems" class="nav-items">
+            <ul>
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="old">Old</a></li>
+                <li><a href="#" id="new">New</a></li>
+                <li><a href="#" id="large">Large</a></li>
+                <li><a href="#" id="small">Small</a></li>
+            </ul>
+       
+        </nav>
+    </header>
+
+    <main>
+
+          <div id="temple-cards" class="cards-container"></div>
+      
+    </main>
+
+    <footer>
+  <p>
+    © <span id="year"></span> Temple Album | Last Modified: <span id="lastModified"></span>
+  </p>
+  </footer>
+
+</body>
+</html>
