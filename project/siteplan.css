@@ -1,0 +1,71 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400&display=swap');
+
+/* General Page Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333333; /* body text color */
+  background-color: #fdfdfd;
+}
+
+header, footer {
+  background-color: #1E6B52; /* green */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+header img {
+  margin-top: 0.5rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #1E6B52; /* green headings */
+  margin-top: 1.5rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFD700; /* gold accents */
+  margin-top: 1rem;
+}
+
+main {
+  padding: 1rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #FFD700; /* gold links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  font-size: 0.9rem;
+}
