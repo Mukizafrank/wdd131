@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review Submitted</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      let count = Number(localStorage.getItem("reviewCount")) || 0;
+      count++;
+      localStorage.setItem("reviewCount", count);
+      document.getElementById("counter").textContent = count;
+    });
+  </script>
+</head>
+<body>
+  <main>
+    <h1>Thank You for Your Review!</h1>
+    <p>Your review has been submitted successfully.</p>
+    <p><strong>Total Reviews Submitted: <span id="counter">0</span></strong></p>
+    <a href="form.html">Submit Another Review</a>
+  </main>
+  <footer>
+    <p>&copy;2024 🌸 Rubia Magdelena Francesco 🌸 Madagascar</p>
+    <p>Last Modification: <span id="lastModified"></span></p>
+  </footer>
+
+  <script>
+    document.getElementById("lastModified").textContent = document.lastModified;
+  </script>
+</body>
+</html>

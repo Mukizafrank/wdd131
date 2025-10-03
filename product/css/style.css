@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+main {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #e6e0eb;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #4a004a;
+}
+
+label, legend {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+fieldset {
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+fieldset label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: #4a004a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #6a1b6a;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #4a004a;
+  color: white;
+  margin-top: 2rem;
+}
+
+
+@media (min-width: 600px) {
+  fieldset label {
+    display: inline-block;
+    margin-right: 1.5rem;
+  }
+}
